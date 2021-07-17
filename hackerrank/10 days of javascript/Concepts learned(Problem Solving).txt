@@ -1,0 +1,70 @@
+Concepts used in solving questions:
+
+--console.log() --> prints stuff on console
+
+--ES5 function --> function fun_name(a,b){} //parameters like a,b can be more
+
+--readLine() --> to get input
+
+--javascript implicitly convert smaller data type to bigger in operations
+ex.-->string_object+Number/Bool -->Number/Bool are automatically converted to string
+Number+Bool -->Bool is automatically converted to Number
+"ap"+true === "aptrue"
+NOTE:above is called Coercion concept
+
+--to convert int,float to string -->parseInt(str_object),parseFloat("12.0") etc used
+
+--let a=4      //a can be re-assigned
+  const b=5   //b can not be re-assigned
+
+--array_object.sort() --> isn't like normal sort! this basically treats even numbers like string while sorting!
+
+-- if(bool){} else if(bool){} ....else if(bool){} else{} --> if else if etc is just like c++ basically normal.
+
+-- and or not is && ! || just like c++.
+
+-- switch works like normal as well :
+   switch(variable){
+    case value_11:
+    case value_21:
+     .
+     .
+    case value_n1:
+    
+    execute these statements;
+    break;
+    
+    case value_12:
+    case value_22:
+     .
+     .
+    case value_n2:
+    
+    execute these statements;
+    break;
+  
+    default :
+     do this;
+   }
+
+-- loop is also same in javascript like c++
+  --> for(let i=0;i<5;i++){do this;} 
+  --> let a=0; while(a<5){do this; a++;} etc.
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+

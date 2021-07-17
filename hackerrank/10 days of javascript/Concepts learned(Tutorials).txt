@@ -1,0 +1,26 @@
+
+--There are six primitive types:Number,String,Boolean,Symbol(keys in Object),Null(has only one value null),Undefined
+
+--The seventh data type is Object( {key:vale,key:value...})
+
+--Strings are immutable unlike c++ but like python etc
+   it is still possible to create another string based on an operation on the       original string:
+     --> String.substr()
+         (+) or String.concat()
+
+-- --> typeof variable/literal gives Data type of that variable/literal
+
+-- functions:
+   1)function fun_name(parameters){//body}
+   2)let(or const) a=function(parameters){//body}
+   3)(ES6)arrow: let(or const) a= (parameters)=> {//body}
+
+-- NOTE: we can also pass 1) type of function as value to a key in an object
+ex. -->  let objec1={apoorv:function fun_name(parameters){//body} };
+
+--Recursion Basic Def: Function calls itself from inside it's body
+
+-- var was used before ES6 was introduced not anymore because it wasn't block based like c++ where blocks determine scope but let/const are block-scope based hence they are used now.
+
+--
+          
